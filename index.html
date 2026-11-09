@@ -1,80 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="BIGSALE – Discover premium fashion, clothing and lifestyle collections at amazing prices.">
-    <title>BIGSALE | Fashion Store</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>BIGSALE | Great sale on big brands</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/config.js"></script><script defer src="js/store.js"></script>
 </head>
 <body>
-<header>
-    <div class="logo">T<span>M</span></div>
-    
-    <button class="menu-btn" aria-label="Toggle menu">☰</button>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#men">Men</a>
-        <a href="#women">Women</a>
-        <a href="#kids">Kids</a>
-        <a href="#products">Shop</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <div class="cart">
-        🛒 <span class="cart-count">0</span>
-    </div>
+<header class="topbar">
+  <a class="brand" href="index.html"><img src="assets/bigsale-logo.png" alt="BIGSALE logo"></a>
+  <nav><a href="#products">Shop</a><a href="login.html" id="accountLink">Login</a><a class="button small" href="signup.html">Sign up</a><a href="admin-login.html">Admin</a></nav>
 </header>
-<section class="hero" id="home">
-    <div>
-        <h1>BIG <span>SALE</span></h1>
-        <p>Discover Your Style. Wear Your Confidence.</p>
-        <a href="#products" class="btn">SHOP NOW</a>
-    </div>
-</section>
-<section class="categories">
-    <h2>SHOP BY CATEGORY</h2>
-    <div class="category-container">
-        <a href="#products" class="category" id="men">MEN</a>
-        <a href="#products" class="category" id="women">WOMEN</a>
-        <a href="#products" class="category" id="kids">KIDS</a>
-    </div>
-</section>
-<section class="products" id="products">
-    <h2>FEATURED COLLECTION</h2>
-    <input type="search" id="product-search"
-           placeholder="Search products..."
-           aria-label="Search products">
-    <div class="product-container">
-        <div class="product">
-            <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600" alt="Casual T-shirt">
-            <h3>Classic T-Shirt</h3>
-            <p class="price">₹499</p>
-            <button class="btn add-to-cart">Add to Cart</button>
-        </div>
-        <div class="product">
-            <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?w=600" alt="Denim jeans">
-            <h3>Premium Jeans</h3>
-            <p class="price">₹999</p>
-            <button class="btn add-to-cart">Add to Cart</button>
-        </div>
-        <div class="product">
-            <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600" alt="Fashion jacket">
-            <h3>Fashion Jacket</h3>
-            <p class="price">₹1,499</p>
-            <button class="btn add-to-cart">Add to Cart</button>
-        </div>
-    </div>
-</section>
-<section class="categories">
-    <h2>YOUR STYLE. YOUR CHOICE.</h2>
-    <p>Explore the latest fashion collections at BIGSALE.</p>
-</section>
-<footer id="contact">
-    <h2>BIGSALE</h2>
-    <p>Fashion | Lifestyle | Trends</p>
-    <p>Discover More. Shop Better.</p>
-    <p>© 2026 BIGSALE. All Rights Reserved.</p>
-</footer>
-<script src="script.js"></script>
-</body>
-</html>
+<main>
+  <section class="hero"><div><p class="eyebrow">GREAT SALE ON BIG BRANDS</p><h1>Find your style.<br><span>Own the moment.</span></h1><p class="muted">Discover your next favourite look at BIGSALE.</p><a class="button" href="#products">Explore products</a></div><img class="hero-logo" src="assets/bigsale-logo.png" alt="BIGSALE"></section>
+  <section id="products" class="section"><div class="section-head"><div><p class="eyebrow">OUR COLLECTION</p><h2>Featured products</h2></div><input id="search" class="search" placeholder="Search products…"></div><div id="productGrid" class="grid"><p class="muted">Loading products…</p></div></section>
+</main>
+<footer>© <span id="year"></span> BIGSALE. All rights reserved.</footer>
+</body></html>
