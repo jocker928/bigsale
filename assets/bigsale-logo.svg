@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="841" height="595" viewBox="0 0 841 595" role="img" aria-labelledby="title desc">
   <title id="title">BIG SALE — Great sale on big brands</title>
-  <desc id="desc">The supplied BIG SALE logo: overlapping red T and white M monogram above BIG SALE and its tagline on a black background.</desc>
+  <desc id="desc">BIG SALE logo with an overlapping red T and white M monogram on a black background.</desc>
   <rect width="841" height="595" fill="#0b0b09"/>
 
-  <!-- Serif monogram, layered as in the supplied reference. -->
-  <text x="292" y="260" fill="#e3232b" font-family="Bodoni 72, Didot, 'Times New Roman', serif" font-size="180" font-weight="700">T</text>
-  <text x="374" y="300" fill="#fff" font-family="Bodoni 72, Didot, 'Times New Roman', serif" font-size="180" font-weight="700">M</text>
+  <!-- Interlocking serif monogram, drawn as shapes for consistent rendering. -->
+  <path fill="#e3232b" d="M300 138h41v5c-17 1-25 7-25 22v13h-15v-40Zm57 0h27v101c0 12 5 18 17 20v2h-60v-2c12-2 16-8 16-20V138Zm27 0h58v40h-15v-13c0-15-8-21-26-22v-5h-17Z"/>
+  <path fill="#fff" d="M386 180h36c7 0 11 3 15 11l25 52 27-48v-1c0-7-5-12-17-14v-3h66v3c-11 2-16 7-16 18v79c0 12 5 18 16 20v3h-62v-3c12-2 17-8 17-20v-61l-36 64h-5l-33-68v65c0 12 7 19 21 20v3h-40v-3c14-1 20-8 20-20v-77c-8-12-17-17-34-17v-3Z"/>
 
-  <!-- Main wordmark -->
-  <text x="142" y="410" fill="#e3232b" font-family="Arial, Helvetica, sans-serif" font-size="90" font-weight="400" letter-spacing="-2">BIG</text>
-  <text x="377" y="410" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="90" font-weight="400" letter-spacing="-2">SALE</text>
+  <!-- BIG SALE wordmark -->
+  <text x="145" y="410" fill="#e3232b" font-family="Arial, Helvetica, sans-serif" font-size="90" font-weight="400" letter-spacing="-2">BIG</text>
+  <text x="378" y="410" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="90" font-weight="400" letter-spacing="-2">SALE</text>
 
   <!-- Tagline ribbon -->
   <rect x="149" y="424" width="540" height="39" fill="#e3232b"/>
