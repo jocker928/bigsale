@@ -1,50 +1,33 @@
-BIGSALE – Men’s Fashion Store
+BIGSALE – Fashion Store
 
-Great Sale on Big Brands
+Welcome to BIGSALE, your destination for modern fashion and stylish clothing.
 
-Welcome to BIGSALE, a modern men’s fashion e-commerce website featuring a premium black and red design.
+About
 
-🌐 Website
+BIGSALE is an online fashion shopping website designed to provide a premium and easy shopping experience.
 
-Coming Soon – GitHub Pages deployment.
+Features
 
-👔 Collections
-
-* Men’s Shirts
-* T-Shirts
-* Jeans
-* Trousers
-* Formal Wear
-* Casual Wear
-* New Arrivals
-* Mega Sale
-
-✨ Features
-
-* Premium black and red design
-* Responsive mobile-friendly layout
+* Premium black, white and red design
+* Men’s and Women’s fashion categories
 * Product showcase
-* Sample prices and discounts
-* Shopping cart interface
-* Product categories
-* GitHub Pages support
+* Shopping cart
+* Product search
+* Mobile-friendly design
+* Responsive homepage
 
-🛠 Technologies
+Technologies
 
 * HTML5
 * CSS3
 * JavaScript
 
-📍 Store Location
+Website
 
-Century Building, New Bus Stand, Kasaragod, Kerala.
+Coming Soon!
 
-📞 Contact
+Contact
 
-Phone: 7736 22 13 66
+BIGSALE – Fashion & Lifestyle
 
-All India Shipping Available.
-
-📄 License
-
-Copyright © 2026 BIGSALE. All rights reserved.
+© 2026 BIGSALE. All Rights Reserved.
