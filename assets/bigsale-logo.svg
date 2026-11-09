@@ -1,15 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="841" height="595" viewBox="0 0 841 595" role="img" aria-labelledby="title desc">
-  <title id="title">BIG SALE — Great sale on big brands</title>
-  <desc id="desc">The BIG SALE logo with an overlapping red T and white M monogram on a black background.</desc>
-  <rect width="841" height="595" fill="#0b0b09"/>
-  <g text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700">
-    <text x="372" y="260" font-size="178" fill="#e5232b">T</text>
-    <text x="460" y="300" font-size="178" fill="#fff">M</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">BIGSALE logo</title>
+  <desc id="desc">Black background with red and white BIGSALE wordmark, monogram, and sale tagline.</desc>
+  <rect width="1200" height="750" fill="#0a0c0d"/>
+
+  <g transform="translate(220 90)">
+    <path d="M0 0H250V200H0V0Z" fill="#e3232f"/>
+    <path d="M34 30H78V174H34V30ZM78 30H160V60H78V30ZM160 30H206V174H160V30ZM98 78H136V174H98V78Z" fill="#fff"/> 
+    <path d="M193 70h55v120h-55V70zm-38 -52h68v52h-68V18zm-13 47h55v120h-55V65zm-18 20h52v111h-52V85z" fill="#e3232f" opacity="0.82"/>
   </g>
-  <g font-family="Arial, Helvetica, sans-serif" font-size="90" font-weight="400" letter-spacing="-2">
-    <text x="145" y="410" fill="#e5232b">BIG</text>
-    <text x="378" y="410" fill="#fff">SALE</text>
+
+  <g transform="translate(440 220)" font-family="Arial, Helvetica, sans-serif" font-weight="900" letter-spacing="-12">
+    <text x="0" y="0" font-size="230" fill="#f4f4f4">M</text>
+    <text x="-200" y="0" font-size="230" fill="#e3232f">T</text>
   </g>
-  <rect x="149" y="424" width="540" height="39" fill="#e5232b"/>
-  <text x="419" y="455" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" fill="#fff">Great sale on big brands</text>
+
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="900" letter-spacing="-10">
+    <text x="150" y="510" font-size="190" fill="#e3232f">BIG</text>
+    <text x="610" y="510" font-size="190" fill="#f4f4f4">SALE</text>
+  </g>
+
+  <rect x="150" y="570" width="900" height="82" fill="#e3232f"/>
+  <text x="600" y="623" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#f8f8f8">Great sale on big brands</text>
 </svg>
