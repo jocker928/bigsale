@@ -1,7 +1,7 @@
 // Paste your Supabase Project URL and publishable key below.
 // These two values are intended for browser use. NEVER put a service_role key here.
 window.BIGSALE_CONFIG = {
-  SUPABASE_URL: "https://vifoftkriiefdpygxhbz.supabase.co/rest/v1/",
+  SUPABASE_URL: "https://vifoftkriiefdpygxhbz.supabase.co",
   SUPABASE_PUBLISHABLE_KEY: "sb_publishable_g3_oBfJ2JubNmSy7Wwehtw_VTfuUpEh"
 };
 window.sb = null;
